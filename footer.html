@@ -9,45 +9,57 @@
 <body>
     <footer class="footer">
         <div class="container">
+            <div class="language-selector">
+                <label for="lang-select">언어 선택:</label>
+                <select id="lang-select">
+                    <option value="ko">한국어</option>
+                    <option value="en">English</option>
+                    <option value="ja">日本語</option>
+                    <option value="zh">中文</option>
+                    <option value="es">Español</option>
+                </select>
+            </div>
+
             <div class="footer-section brand-info">
-                <h3 class="section-title">TradingDiaryPro</h3>
-                <p>암호화폐 및 주식 투자자를 위한 올인원 매매일지 및 분석 도구입니다. 복잡한 시장 데이터를 한눈에 파악하고, 개인의 투자 기록을 체계적으로 관리하며, 심층적인 분석을 통해 투자 전략을 개선할 수 있도록 돕습니다.</p>
+                <h3 class="section-title" data-lang-key="footer_title">TradingDiaryPro</h3>
+                <p data-lang-key="footer_desc">암호화폐 및 주식 투자자를 위한 올인원 매매일지 및 분석 도구입니다. 복잡한 시장 데이터를 한눈에 파악하고, 개인의 투자 기록을 체계적으로 관리하며, 심층적인 분석을 통해 투자 전략을 개선할 수 있도록 돕습니다.</p>
             </div>
 
             <div class="footer-section features">
-                <h3 class="section-title">주요 기능</h3>
+                <h3 class="section-title" data-lang-key="features_title">주요 기능</h3>
                 <ul class="feature-list">
-                    <li>실시간 코인 가격 및 알림</li>
-                    <li>매매일지 작성 및 관리</li>
-                    <li>성과 지표 대시보드</li>
-                    <li>다국어 지원</li>
-                    <li>데이터 내보내기/가져오기</li>
+                    <li data-lang-key="feature_1">실시간 코인 가격 및 알림</li>
+                    <li data-lang-key="feature_2">매매일지 작성 및 관리</li>
+                    <li data-lang-key="feature_3">성과 지표 대시보드</li>
+                    <li data-lang-key="feature_4">다국어 지원</li>
+                    <li data-lang-key="feature_5">데이터 내보내기/가져오기</li>
                 </ul>
             </div>
 
             <div class="footer-section usage">
-                <h3 class="section-title">TradingDiaryPro 사용법</h3>
+                <h3 class="section-title" data-lang-key="usage_title">TradingDiaryPro 사용법</h3>
                 <ol class="usage-list">
-                    <li>회원가입 및 로그인 (로컬 저장소 기반)</li>
-                    <li>대시보드 확인</li>
-                    <li>매매일지 작성</li>
-                    <li>거래 내역 관리</li>
-                    <li>알림 설정</li>
-                    <li>데이터 백업 및 복원</li>
+                    <li data-lang-key="usage_1">회원가입 및 로그인 (로컬 저장소 기반)</li>
+                    <li data-lang-key="usage_2">대시보드 확인</li>
+                    <li data-lang-key="usage_3">매매일지 작성</li>
+                    <li data-lang-key="usage_4">거래 내역 관리</li>
+                    <li data-lang-key="usage_5">알림 설정</li>
+                    <li data-lang-key="usage_6">데이터 백업 및 복원</li>
                 </ol>
             </div>
 
             <div class="footer-section support">
-                <h3 class="section-title">문의 및 지원</h3>
-                <p>이메일: <a href="mailto:tradingdiarypro521@gmail.com">tradingdiarypro521@gmail.com</a></p>
+                <h3 class="section-title" data-lang-key="support_title">문의 및 지원</h3>
+                <p><span data-lang-key="support_email">이메일: </span><a href="mailto:tradingdiarypro521@gmail.com">tradingdiarypro521@gmail.com</a></p>
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2025 TradingDiaryPro. All rights reserved.</p>
+                <p data-lang-key="copyright">&copy; 2025 TradingDiaryPro. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
+    <script src="lang_data.js"></script>
     <script src="footer.js"></script>
 </body>
 </html>

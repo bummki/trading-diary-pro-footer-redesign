@@ -63,6 +63,24 @@ body {
     border-top: 1px solid #34495e;
 }
 
+.language-selector {
+    flex-basis: 100%;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.language-selector label {
+    margin-right: 10px;
+}
+
+.language-selector select {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
 /* Mobile responsiveness */
 @media (max-width: 768px) {
     .container {
@@ -79,14 +97,14 @@ body {
     }
 
     .section-title::after {
-        content: '+';
+        content: "> ";
         position: absolute;
         right: 0;
         top: 0;
     }
 
     .footer-section.active .section-title::after {
-        content: '-';
+        content: "v ";
     }
 
     .footer-section p,
